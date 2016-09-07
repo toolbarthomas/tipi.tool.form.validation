@@ -1,4 +1,8 @@
-@mixin form-validation-style($selectors: (), $property: false, $value: false) {
+@mixin form-validation-style(
+	$selectors: (),
+	$property: false,
+	$value: false
+) {
 	@if type-of($selectors) == 'list' and $property != false and $value != false {
 		@if length($selectors) > 0 {
 			$property: unquote($property);
@@ -24,8 +28,6 @@
 				@else if $property == color {
 					color: $value;
 				}
-
-				foo: bar;
 			}
 		}
 	}
