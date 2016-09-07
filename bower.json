@@ -14,8 +14,5 @@
     "validation"
   ],
   "license": "MIT",
-  "main": "_tipi.tool.form.validation.scss",
-  "dependencies": {
-    "tipi.component.form": "^2.0.0",
-  }
+  "main": "_tipi.tool.form.validation.scss"
 }

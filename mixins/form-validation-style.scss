@@ -1,0 +1,32 @@
+@mixin form-validation-style($selectors: (), $property: false, $value: false) {
+	@if type-of($selectors) == 'list' and $property != false and $value != false {
+		@if length($selectors) > 0 {
+			$property: unquote($property);
+			$value: unquote($value);
+
+			#{$selectors} {
+				@if $property == border {
+					border-color: $value;
+				}
+
+				@else if $property == border-color {
+					border-color: $value;
+				}
+
+				@else if $property == background {
+					background: $value;
+				}
+
+				@else if $property == background-color {
+					background: $value;
+				}
+
+				@else if $property == color {
+					color: $value;
+				}
+
+				foo: bar;
+			}
+		}
+	}
+}
