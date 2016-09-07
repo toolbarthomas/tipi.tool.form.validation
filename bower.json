@@ -1,0 +1,21 @@
+{
+  "name": "tipi.tool.form.validation",
+  "homepage": "https://github.com/toolbarthomas/tipi.tool.form.validation",
+  "authors": [
+    "Thomas van der Velde <contact@toolbarthomas.net>"
+  ],
+  "description": "Modular front-end workflow core package",
+  "keywords": [
+    "toolbarthomas",
+    "modular",
+    "tipi",
+    "tool",
+    "form",
+    "validation"
+  ],
+  "license": "MIT",
+  "main": "_tipi.tool.form.validation.scss",
+  "dependencies": {
+    "tipi.component.form": "^2.0.0",
+  }
+}
